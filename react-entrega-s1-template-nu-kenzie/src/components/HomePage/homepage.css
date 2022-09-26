@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-header {
+    height: 80px;
+    width: 100%;
+    background: #F8F9FA;
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+}
+
+.section-header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    max-width: 1360px;
+}
+
+.section-header > div > button {
+
+    font-family: 'Nunito', sans-serif;
+
+    width: 64px;
+    height: 40px;
+
+    border-radius: 8px;
+    border: none;
+
+    color: black;
+    background: #E9ECEF;
+
+    cursor: pointer;
+}
+
+.section-main {
+    width: 80%;
+    max-width: 1360px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin-top: 40px;
+}
+
+.div-creat{
+    max-width: 355px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.conteiner-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.conteiner-form > button {
+    background: #FD377E;
+    border: none;
+    height: 50px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.input-descricao {
+    height: 50px;
+    background: #F8F9FA;
+    border: none;
+    border-radius: 8px;
+}
+
+.example {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    color: #868E96;
+}
+
+.div-valor-tipo {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+
+.title {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    color: #212529;
+}
+
+.input{
+    height: 50px;
+    background: #F8F9FA;
+    border: none;
+    border-radius: 8px;
+}
+
+.parallel {
+    width: 40%;
+}
+
+.div-value {
+    margin-right: 35px;
+}
+
+.div-value > input {
+    width: 100%;
+}
+
+.div-select > select {
+    width: 100%;
+}
+
+.div-render {
+    width: 60%;
+    padding: 1rem;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+.container-transactions {
+    list-style: none;
+    padding-left: 0;
+}
+
+.value-delet {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+    margin-bottom: 7%;
+}
+
+.entreda {
+    display: flex;
+    justify-content: space-between;
+    background: #F8F9FA;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    border-left: 3px solid #03B898;
+}
+
+.despesa {
+    display: flex;
+    justify-content: space-between;
+    background: #F8F9FA;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    border-left: 3px solid #E9ECEF;
+}
+
+.value-delet > img {
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+}
+
+.description {
+    width: 70%;
+    margin-left: 1rem;
+}
+
+.elem-description {
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.tiny {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.div-totalvalue {
+    border-radius: 4px;
+    border: 1px solid #E9ECEF;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+.div-totalvalue > p {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.total-value {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total-value > h2 {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.total-value > p {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FD377E;
+}
+
+@media (max-width: 900px) {
+    .section-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-creat {
+        width: 80%;
+    }
+
+    .div-render {
+        width: 80%;
+        padding-right: 1rem;
+    }
+}

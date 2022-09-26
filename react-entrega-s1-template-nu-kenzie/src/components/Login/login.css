@@ -1,0 +1,74 @@
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+
+
+.login-page {
+  background-color: #212529;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteiner {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.div-text {
+  width: 40%;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
+
+.div-text > h1 {
+  font-weight: 800;
+  font-size: 38px;
+}
+
+.div-text > p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.div-text > button {
+  width: 241px;
+  height: 48px;
+  background: #FD377E;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.div-img {
+  width: 60%;
+  height: 60%;
+  max-width: 550px;
+  max-height: 550px;
+}
+
+.div-img > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media (max-width: 768px) {
+  .conteiner {
+    flex-direction: column;
+    margin: 2rem 2rem;
+  }
+
+  .div-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
